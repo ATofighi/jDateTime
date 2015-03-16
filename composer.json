@@ -1,0 +1,18 @@
+{
+  "name": "ATofighi/jDateTime",
+  "description": "Jalali DateTime class",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["time", "date", "jalali"],
+  "homepage": "http://github.com/atofighi",
+  "license": "MIT",
+  "require": {
+    "sallar/jdatetime": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "jDateTime\\": "src/"
+    }
+  }
+}
