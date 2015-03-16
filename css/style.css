@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Yekan';
+	src: url('../fonts/Yekan/Yekan.eot');
+	src: url('../fonts/Yekan/Yekan.eot#iefix') format('embedded-opentype'),
+	url('../fonts/Yekan/Yekan.woff') format('woff'),
+	url('../fonts/Yekan/Yekan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	direction: rtl;
+}
+
+body {
+	text-align: center;
+	font-size: 14px;
+	font-family: Yekan, sans-serif;
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+	margin: 10px 0;
+	font-weight: normal;
+}
+
+section {
+	background: #f7f7f7;
+	border: solid #ccc;
+	border-width: 0 1px;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 700px;
+	padding: 10px;
+	text-align: right;
+}
+
+pre {
+	background: #fff;
+	text-align: left;
+	direction: ltr;
+	border-radius: 3px;
+	background: #333;
+	color: #fff;
+	padding: 5px 10px;
+}
